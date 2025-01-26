@@ -1,12 +1,12 @@
 {
     "routes": [
       {
-        "src": "/views/(.*)",
-        "dest": "/views/index.html"
+        "src": "./index.js/(.*)",
+        "dest": "/index.js"
       },
       {
         "src": "/(.*)",
-        "dest": "/index.html"
+        "dest": "/index.js"
       }
     ]
   }
