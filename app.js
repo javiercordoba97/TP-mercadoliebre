@@ -8,7 +8,7 @@ app.listen(3000,()=>{
 });
 
 app.get("/", function(req, res){
-    res.sendFile(path.join(__dirname,"/views/index.html"))
+    res.sendFile(path.join(__dirname,"/index.html"))
 });
 app.get("/register", function(req, res){
     res.sendFile(path.join(__dirname,"/views/register.html"))
