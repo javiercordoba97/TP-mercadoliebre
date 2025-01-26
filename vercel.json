@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/views/(.*)",
-        "dest": "/views/$1"
+        "dest": "/views/index.html"
       },
       {
         "src": "/(.*)",
