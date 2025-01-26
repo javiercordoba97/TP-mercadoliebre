@@ -1,7 +1,5 @@
 {
-    "routes": [
-      { "src": "/assets/(.*)", "dest": "/public/css" },
-      { "src": "/src/(.*)", "dest": "/views" }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
-  
