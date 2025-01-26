@@ -1,11 +1,11 @@
 {
     "routes": [
       {
-        "source": "/views/(.*)",
+        "src": "/views/(.*)",
         "destination": "/views/$1"
       },
       {
-        "source": "/(.*)",
+        "src": "/(.*)",
         "destination": "/index.html"
       }
     ]
