@@ -2,11 +2,11 @@
     "routes": [
       {
         "src": "/views/(.*)",
-        "destination": "/views/$1"
+        "dest": "/views/$1"
       },
       {
         "src": "/(.*)",
-        "destination": "/index.html"
+        "dest": "/index.html"
       }
     ]
   }
