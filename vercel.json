@@ -1,12 +1,27 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "views/index.html",
+        "use": "@vercel/static"
+      }
+    ],
     "routes": [
       {
-        "src": "/index.js/(.*)",
-        "dest": "/index.js"
+        "src": "/api/(.*)",
+        "dest": "/api/$1"
+      },
+      {
+        "src": "/views/(.*)",
+        "dest": "/views/$1"
       },
       {
         "src": "/(.*)",
-        "dest": "/index.js"
+        "dest": "/index.html"
       }
     ]
   }
