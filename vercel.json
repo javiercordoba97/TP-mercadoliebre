@@ -10,8 +10,8 @@
     { "src": "/register", "dest": "/views/register.html" },
     { "src": "/carrito", "dest": "/views/carrito.html" },
     { "src": "/api/(.*)", "dest": "/api/$1" },
-    { "src": "/css/(.*)", "dest": "/public/css/$1" },
-    { "src": "/img/(.*)", "dest": "/public/img/$1" },
+    { "src": "/css/(.*)", "dest": "/css/$1" },
+    { "src": "/img/(.*)", "dest": "/img/$1" },
     { "src": "/(.*)", "dest": "/views/$1" }
   ]
 }
