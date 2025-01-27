@@ -6,11 +6,11 @@
     { "src": "views/*", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/css/(.*)", "dest": "/public/css/$1" },
+    { "src": "/img/(.*)", "dest": "/public/img/$1" },
     { "src": "/login", "dest": "/views/login.html" },
     { "src": "/register", "dest": "/views/register.html" },
     { "src": "/carrito", "dest": "/views/carrito.html" },
-    { "src": "/css/(.*)", "dest": "/public/css/$1" },
-    { "src": "/img/(.*)", "dest": "/public/img/$1" },
     { "src": "/", "dest": "/views/index.html" }
   ]
 }
