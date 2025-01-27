@@ -10,7 +10,8 @@
     { "src": "/login", "dest": "/views/login.html" },
     { "src": "/register", "dest": "/views/register.html" },
     { "src": "/carrito", "dest": "/views/carrito.html" },
-    { "src": "/(.*)", "dest": "/public/$1" }
+    { "src": "/(.*)", "dest": "/public/$1" },
+    { "src": "/css/(.*)", "dest": "/public/css/$1" }
   ]
 }
 
